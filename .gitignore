@@ -11,8 +11,10 @@ DjangoEnv/
 #django stuff
 *.sqlite3
 *.pyc 
-media/
-staticfiles/
+media/*
+!media/.gitkeep
+staticfiles/*
+!staticfiles/.gitkeep
 db.sqlite3
 
 #VSCode settings
