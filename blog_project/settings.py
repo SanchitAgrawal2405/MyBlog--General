@@ -151,3 +151,6 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
+CSRF_TRUSTED_ORIGINS =[
+    'https://myblog-general.onrender.com',
+]
